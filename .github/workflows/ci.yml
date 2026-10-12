@@ -19,4 +19,4 @@ jobs:
           cache: 'gradle'
 
       - name: Run tests
-        run: ./gradlew test
+        run: bash ./gradlew test
